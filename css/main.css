@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', 'sans-serif'; 
+	font-size: 18px; 
+	font-weight: 300; 
+	background-image: url("../img/background.jpg"); 
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+a {
+	color:#0000AA;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#0000EE;
+	text-decoration:none; 
+	}
+
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px;  
+	margin-top: 1em; 
+	border-bottom-color: #EA4A00; 
+	border-bottom-style: solid; 
+	color: #FFFFFF; 
+	position: relative;
+}
+
+#dawg {
+	color:#EEEEEE;
+	margin: 0;
+	font-size: 120%; 
+}
+
+h1,h2 {
+	font-family: 'Raleway', 'Helvetica Neue', 'sans-serif';
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 300%; 
+	margin: 0; 
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+h2,h3 {
+	color: #505050; 
+
+}
+
+.information, .menu, .about, header, footer.row {
+		margin-left: 30%;  
+		margin-right: 20px; 
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px; 
+}
+
+.information, .about {
+		background-image: url("../img/ricepaper_v3.png "); 
+		opacity: 0.9;
+}
+
+.information h2:first-child {
+	margin-top: 0px; 
+}
+
+dt {
+	font-weight: 400; 
+}
+
+dd {
+	font-style: italic;
+	font-weight: 100;
+	margin-left: 20px; 
+	font-size: 80%; 
+}
+
+.menu {
+	padding:1em; 
+	background-color: rgba(207, 205, 140,0.5);
+}
+
+.menu h2:first-child {
+	margin-top: 0px; 
+}
+
+.about {
+	padding: 1em; 
+	font-style: italic;
+	font-size: 100%; 
+}
+
+.about p {
+	font-size: 80%; 
+}
+
+.about h2:first-child {
+	margin-top: 0px; 
+}
+
+
+footer {
+    padding: 1em;
+    background-color: #FC892F;
+    border-top: 5px; 
+    border-top-color: #EC791F; 
+    font-size: 80%; 
+    text-align: right; 
+    border-top-style:solid;  
+    margin-bottom: 10px;
+
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+	margin-right: 5px;
+}
+nav a {
+	color: #55E; 
+}
+
+nav a:hover {
+	color: #00E;
+
+	}
+
+@media (max-width: 991px) {
+	body {
+		background-image: none; 
+		font-size: 16px;
+	}
+
+	.information, .menu, .about, header, footer.row {
+ 		margin: 0; 
+
+ 	}
+
+ 	#dawg {
+ 		display: none; 
+ 	}
+
+ 	ul {
+ 		padding-left: 0;
+ 	}
+
+ 	nav {
+ 		padding-top: 10px; 
+ 		padding-right: 10px; 
+ 	}
+ }
+
+
+
+ @media(min-width: 992px) {
+ 	body {
+ 		font-size: 18px;
+ 	}
+
+ 	nav {
+		position: absolute;
+		right: 5px;
+		top: 5px; 
+		}
+ }
+
+ 
+
+
+
